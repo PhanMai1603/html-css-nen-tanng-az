@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HMTL List</title>
+</head>
+
+<body>
+    <h3>Danh sách không sắp xếp</h3>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Water</li>
+    </ul>
+
+    <hr>
+    <h3>Danh sách có sắp xếp</h3>
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Water</li>
+    </ol>
+
+    <hr>
+    <h3>Danh sách dạng mô tả</h3>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>Black hot drink</dd>
+        <dd>Bax xiu</dd>
+
+        <dt>Tea</dt>
+        <dd>Green hot drink</dd>
+
+        <dt>Water</dt>
+        <dd>Clear liquid</dd>
+    </dl>
+
+    <hr>
+    <hr>
+    <h3>Những danh sách lồng nhau - Nested Lists:</h3>
+    <h4>Nested Lists > Danh sách không sắp xếp</h4>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Water
+            <ul>
+                <li>Water 1</li>
+                <li>Water 2</li>
+                <li>Water 3</li>
+            </ul>
+        </li>
+    </ul>
+    <hr>
+    <h4>Nested Lists > Danh sách có sắp xếp </h4>
+    <ol>
+
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Water
+            <ol>
+                <li>Water 1</li>
+                <li>Water 2</li>
+                <li>Water 3</li>
+            </ol>
+        </li>
+    </ol>
+
+    <h3>Tạo kiểu cơ bản cho danh sách:</h3>
+    <h4>Styled Lists > Danh sách không sắp xếp</h4>
+    <ul style="list-style-type: square;"> <!-- none, circle, disc -->
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Water</li>
+    </ul>
+    <hr>
+
+    <h4>Styled Lists > Danh sách có sắp xếp </h4>
+    <ol type="5" start="5" reversed> <!-- A, a, 1, i, I -->
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Water</li>
+    </ol>
+</body>
+
+</html>
